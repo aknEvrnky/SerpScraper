@@ -97,7 +97,6 @@ class GoogleSearch extends SearchEngine
             'client' => 'navclient', // probably useless
             'gbv' => 1, // no javascript
             'complete' => 0, // 0 to disable instant search and enable more than 10 results
-            'num' => $results_per_page, // number of results
             'pws' => 0, // do not personalize my search results
             'nfpr' => 1, // do not auto correct my search queries
             'ie' => 'utf-8',
